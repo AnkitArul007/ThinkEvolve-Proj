@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Mukta&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+    /* font-family: 'Mukta', sans-serif; */
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(218, 41%, 15%);
+}
+
+body>section{
+    width: 90%;
+    height: 100%;
+    margin-top: 2.5rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+}
+
+body > section > .card{
+    position: relative;
+    border: 1px solid black;
+    height: 100%;
+    width: 35%;
+    padding: 2.5rem 0.5rem;
+}
+
+body > section > .card > h1{
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 2.5em;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+body > section > .card > .loc_n_sec_info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+body > section > .card > .loc_n_sec_info > .location, .sector{
+    text-transform: capitalize;
+    color: gray;
+    font-size: 1.4em;
+}
+
+body > section > .card > .insight{
+    width: 100%;
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+body > section > .card > .cancel{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.04em;
+    border-radius: 50%;
+}
+
+body > section > .card > .cancel:hover{
+    background-color: rgba(234, 233, 233, 0.579);
+    cursor: pointer;
+}
+
+body > section > .card > .extra_informations{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+body > section > .card > .extra_informations>p{
+    font-size: 1.4em;
+    letter-spacing: 0.7px;
+}
+
+body > section > .card > .extra_informations >a> .url{
+    font-size: 1.5em;
+}
+
+
+

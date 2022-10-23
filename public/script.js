@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/getData";
+const url = "/getData";
 
 async function data(){
     const d = await fetch(url);
